@@ -7,6 +7,9 @@
       <th>Question</th>
       <th>Answer</th>
       <th>User</th>
+      <th>&nbsp;</th>
+      <th>Actions</th>
+      <th>&nbsp;</th>
     </tr>
   </thead>
  
@@ -15,9 +18,9 @@
     <td><%= q.question %></td>
     <td><%= q.answer %></td>
 		<td><%= q.users.first.email%></td>
-    <td><%= link_to 'Show', q %></td>
-    <td><%= link_to 'Edit', edit_question_path(q) %></td>
-    <td><%= link_to 'Delete', q, method: :delete, data: {confirm: 'Are you sure?'}%></td>
+    <td align="center"><%= link_to 'Show', q %></td>
+    <td align="center"><%= link_to 'Edit', edit_question_path(q) %></td>
+    <td align="center"><%= link_to 'Delete', q, method: :delete, data: {confirm: 'Are you sure?'}%></td>
 
   </tr>
 <% end %>
