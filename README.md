@@ -9,13 +9,13 @@ front-end framework.
 
 Application begins with the 'Index' action, showing all Questions. 
 
-![All Questions and Answers](https://github.com/dbaynes/Q-A/public/Q+A_Index.png)
+![All Questions and Answers](https://github.com/dbaynes/Q-A/blob/master/public/Q%2BA_Index.png)
 
 All questions and answers can be edited or deleted from here. 
 
 An optional link is provided to 'index' only the logged in users Questions.
 
-![User Questions and Answers](https://github.com/dbaynes/Q-A/public/User_Index.png)
+![User Questions and Answers](https://github.com/dbaynes/Q-A/blob/master/public/User_Index.png)
 
 Experience and expertise gained here will be applied to the class project Klusters.
 
